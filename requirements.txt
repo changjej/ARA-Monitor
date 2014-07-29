@@ -1,0 +1,6 @@
+Flask
+pyapns
+BeautifulSoup4
+python-gcm
+service_identity
+setproctitle

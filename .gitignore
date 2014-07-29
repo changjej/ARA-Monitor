@@ -3,6 +3,8 @@
 *.log
 *.lock
 *.pem
-etc/settings_local.py 
-venv/ 
-logs/
+etc/settings_local.py
+venv/*
+logs/*
+receivers
+board_indexes
