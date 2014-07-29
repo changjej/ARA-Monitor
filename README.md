@@ -51,6 +51,10 @@ receivers = [
 	
 	]`
 	
+## Run
+
+`./monitor {start|stop|restart}
+	
 
 ## Directory 구조 
 src : 소스코드
