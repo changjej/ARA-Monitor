@@ -1,0 +1,8 @@
+*.pyc
+*.swp
+*.log
+*.lock
+*.pem
+etc/settings_local.py 
+venv/ 
+logs/
