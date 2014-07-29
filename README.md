@@ -40,16 +40,15 @@ APNS_pem_name : APNS 인증서의 이름이다.
 
 receivers : 알림을 받게 될 사람들의 목록이다. 예시와 같이 [(ID,(BOARDS),PUSH)]의 형태로 추가하면 된다. 
 	
-`예시)
-receivers = [
+```
+예시)
 
+receivers = [
 	('example1@example.org',('ToSysop','BuySell'),False),
-	
 	('example2@example.org',('ToSysop','BuySell','Wanted'),True),
-	
 	('example3@example.org',('BuySell','Wanted'),False),
-	
-	]`
+	]
+```
 	
 ## Run
 
