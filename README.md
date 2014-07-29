@@ -52,7 +52,7 @@ receivers = [
 	
 ## Run
 
-`./monitor {start|stop|restart}
+```./monitor {start|stop|restart}```
 	
 
 ## Directory 구조 
