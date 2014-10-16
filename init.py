@@ -11,8 +11,6 @@ def init():
         return
     settings_local_file = open("etc/settings_local.py","w")
 
-    ara_password = raw_input("ara password : ")
-    settings_local_file.write('ARA_PASSWORD="%s"\n'%ara_password)
     gmail_password = raw_input("gmail password : ")
     settings_local_file.write('GMAIL_PASSWORD="%s"\n'%gmail_password)
     settings_local_file.close()

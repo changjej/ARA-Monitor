@@ -16,25 +16,25 @@ register_server_port = 15000
 # 3. Crawler Settings
 #
 period = 120.0
-boardnames = ['ToSysop','Wanted','BuySell','Notice','Garbages','Food','Love','Infoworld','FunLife','Lostfound','QandA','Hobby','Siggame']
-index_file_name = 'board_indexes'
+#boardnames = ['ToSysop','Wanted','BuySell','Notice','Garbages','Food','Love','Infoworld','FunLife','Lostfound','QandA','Hobby','Siggame']
+index_file_name = 'index'
 
 #
 # 4. Email Settings
 #
-ara_id = 'example'
-gmail_user = "example@gmail.com"
-ARA_PASSWORD = ''
+#ara_id = 'example'
+gmail_user = "changjej@gmail.com"
+#ARA_PASSWORD = ''
 GMAIL_PASSWORD = ''
 
 # 
 # 5. Push Settings
 #
 # 5.1 APNS
-APNS_pem_name = 'apns.pem'
+#APNS_pem_name = 'apns.pem'
 
 # 5.2 GCM
-GCM_API_KEY = 'exampleKEY'
+#GCM_API_KEY = 'exampleKEY'
 
 #
 # 6. Log Settings
