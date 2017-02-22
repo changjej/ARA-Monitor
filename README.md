@@ -1,5 +1,8 @@
 #ARA Monitoring Tool
 
+# Deprecated
+이 프로젝트는 더이상 관리하지 않습니다.
+
 ## Introduction 
 ARA Monitoring Tool 은 ARA의 게시판을 Crawling 하여, Mail 혹은 APNS로 알림을 주는 도구이다. 
 자체적으로 Threading을 하여 Daemonize 되어 작동하므로, cron을 이용하지 않아도 된다. 
