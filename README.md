@@ -3,6 +3,8 @@
 # Deprecated
 이 프로젝트는 더이상 관리하지 않습니다.
 
+---
+
 ## Introduction 
 ARA Monitoring Tool 은 ARA의 게시판을 Crawling 하여, Mail 혹은 APNS로 알림을 주는 도구이다. 
 자체적으로 Threading을 하여 Daemonize 되어 작동하므로, cron을 이용하지 않아도 된다. 
@@ -31,11 +33,11 @@ init.py 는 virtaulenv 를 설정하고, 의존성 패키지를 설치한다. �
 
 **GMAIL_PASSWORD** : 메일을 보내기위한 Gmail Account의 Password이다. settings.py 보다는 settings_local.py 에 기록하고 권한을 다르게 설정할 것을 추천한다. 
 
-**index_file_name** : 일종의 DB처럼 사용되는 가장 최근에 읽어온 Index가 게시판별로 어디까지 인지 저장한는 파일이다.  IMPORTANT : 현재 이파일을 자동생성해 주는 기능이 없다. 이로 인해서 처음에는 직접 이 파일을 생성해야 한다. 만일 Wanted 게시판의 가장 최신 글이 419900 이라면 다음과 같이 작성하면 된다. 
+**index_file_name** : 일종의 DB처럼 사용되는 가장 최근에 읽어온 Index가 게시판별로 어디까지 인지 저장한는 파일이다.  **IMPORTANT : 현재 이파일을 자동생성해 주는 기능이 없다. ** 이로 인해서 처음에는 직접 이 파일을 생성해야 한다. 만일 Wanted 게시판의 가장 최신 글이 419900 이라면 다음과 같이 작성하면 된다. 
 
 `419900,Wanted`
 
-이를 작성하지 않고 시작할 경우 어떻게 될지 보장할 수 없다. 	
+이를 작성하지 않고 시작할 경우 게시판의 시작 글부터 모든 게시글을 읽어와 메일을 발송할 수 있다. 
 
 **log_file_name** : log파일의 이름이다. 
 
